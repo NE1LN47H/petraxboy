@@ -26,11 +26,11 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
   };
 
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen w-full z-10 text-center px-4">
-      <h1 className={`text-6xl sm:text-7xl md:text-9xl font-extrabold tracking-tight text-white mb-6 uppercase drop-shadow-[0_10px_35px_rgba(0,0,0,0.8)] select-none animate-seq ${getFontClass()}`}>
+    <section className="flex flex-col items-center justify-center min-h-screen w-full z-10 text-center px-4 py-12">
+      <h1 className={`text-4xl sm:text-7xl md:text-9xl font-extrabold tracking-tight text-white mb-6 uppercase drop-shadow-[0_10px_35px_rgba(0,0,0,0.8)] select-none break-words animate-seq ${getFontClass()}`}>
         {title}
       </h1>
-      <p className="text-lg sm:text-xl md:text-2xl text-white/70 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md select-none animate-seq">
+      <p className="text-base sm:text-xl md:text-2xl text-white/70 max-w-2xl mx-auto font-light leading-relaxed drop-shadow-md select-none animate-seq px-2">
         {subtitle}
       </p>
 
